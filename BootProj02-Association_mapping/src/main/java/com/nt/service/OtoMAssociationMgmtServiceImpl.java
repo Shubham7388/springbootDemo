@@ -86,16 +86,13 @@ public class OtoMAssociationMgmtServiceImpl implements IOtoMAssociationMgmtServi
 		iterable.forEach(customer->{
 			System.out.println(customer);
 		});
-		Iterable<Accounts> iterable1=accountRepo.findAll();
-		iterable1.forEach(accounts->{
-			System.out.println(accounts);
-		});
 	}
 
 	@Override
 	public void loadDataUsingChild() {
-		// TODO Auto-generated method stub
-		System.out.println("method added by TL.......");
-		
+		Iterable<Accounts> iterable1=accountRepo.findAll();
+		iterable1.forEach(accounts->{
+			System.out.println(accounts);
+		});
 	}
 }
