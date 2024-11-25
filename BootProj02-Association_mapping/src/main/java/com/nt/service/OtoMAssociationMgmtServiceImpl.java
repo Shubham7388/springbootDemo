@@ -25,6 +25,7 @@ public class OtoMAssociationMgmtServiceImpl implements IOtoMAssociationMgmtServi
 	@Override
 	public void saveDataUsingParent()
 	{
+		System.out.println("Saving data using parent");
 		//create parent object
 		Customer customer=new Customer("Shubham1234", "Bhadohi");
 		
