@@ -96,5 +96,6 @@ public class OtoMAssociationMgmtServiceImpl implements IOtoMAssociationMgmtServi
 	public void addDetail()
 	{
 		System.out.println("This method added by devloper Nidhi");
+		System.out.println("Shubham is a java full stack developer");
 	}
 }
