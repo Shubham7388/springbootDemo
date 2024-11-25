@@ -45,6 +45,11 @@ public class OtoMAssociationMgmtServiceImpl implements IOtoMAssociationMgmtServi
 		//save the person object
 		customerRepo.save(customer);
 		System.out.println("Customer and his account detail saved");
+		System.out.println("Data saving by using parent to child concept");
+		System.out.println("Data saving by using parent to child concept");
+		
+		System.out.println("Data saving by using parent to child concept");
+		System.out.println("Data saving by using parent to child concept");
 	}
 
 	@Override
