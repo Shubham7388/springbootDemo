@@ -95,6 +95,6 @@ public class OtoMAssociationMgmtServiceImpl implements IOtoMAssociationMgmtServi
 	}
 	public void addDetail()
 	{
-		System.out.println("This method added by TL");
+		System.out.println("This method added by devloper Nidhi");
 	}
 }
