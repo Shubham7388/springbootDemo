@@ -90,6 +90,7 @@ public class OtoMAssociationMgmtServiceImpl implements IOtoMAssociationMgmtServi
 
 	@Override
 	public void loadDataUsingChild() {
+		System.out.println("Added by Shubham");
 		Iterable<Accounts> iterable1=accountRepo.findAll();
 		iterable1.forEach(accounts->{
 			System.out.println(accounts);
