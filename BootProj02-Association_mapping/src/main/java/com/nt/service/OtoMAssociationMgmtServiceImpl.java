@@ -93,4 +93,8 @@ public class OtoMAssociationMgmtServiceImpl implements IOtoMAssociationMgmtServi
 		});
 		System.out.println("OtoMAssociationMgmtServiceImpl.loadDataUsingChild()::end method");
 	}
+	public void addDetail()
+	{
+		System.out.println("This method added by TL");
+	}
 }
