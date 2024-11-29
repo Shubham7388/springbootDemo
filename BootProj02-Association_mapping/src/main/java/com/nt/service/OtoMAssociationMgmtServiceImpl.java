@@ -103,5 +103,7 @@ public class OtoMAssociationMgmtServiceImpl implements IOtoMAssociationMgmtServi
 		System.out.println("OtoMAssociationMgmtServiceImpl.otpDetail()");
 		System.out.println("This method wrtitten by developer1");
 		System.out.println("**********************************");
+		System.out.println("**********************************");
+		System.out.println("**********************************");
 	}
 }
