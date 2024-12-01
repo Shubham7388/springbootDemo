@@ -16,9 +16,9 @@ public class OtoMAssociationMappingRunner implements CommandLineRunner
 	@Override
 	public void run(String... args) throws Exception
 	{
-		associationService.saveDataUsingParent();
+//		associationService.saveDataUsingParent();
 //		associationService.saveDataUsingChild();
-//		associationService.loadDataUsingParent();
+		associationService.loadDataUsingParent();
 
 	}
 
