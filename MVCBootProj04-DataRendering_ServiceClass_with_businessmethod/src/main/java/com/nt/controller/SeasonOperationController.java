@@ -55,9 +55,12 @@ public class SeasonOperationController
 	}
 	
 	@GetMapping("/test")
-	public String checkgetPost()
+	public String checkgetPost(Map<String,Object> map)
 	{
 		System.out.println("SeasonOperationController.checkgetPost()");
+		map.put("Name","ShubhamChaurasia");
+		map.put("Designition", "JavaDeveloper");
+		map.put("Phone",7388890916L);
 		return "show_test";
 	}
 	
